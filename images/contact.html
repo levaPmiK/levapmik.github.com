@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body background="images/writer.jpg">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">EShoot</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active">	
+      	<a href="about.html">About</a></li>
+      <li><a href="EgalleryOne.html">EgalleryOne</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+      <li><a href="price.html">Price</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">	
+      <div class="col-md-12">
+      <div class="textbox"> <form onsubmit="return checkForm();" method="post" action="mailto:YOUR EMAIL ADDRESS HERE">
+  <div class="contact_name contact-name">
+    <span class="contact_label"></span>
+    <input type="text" id="name" placeholder="Full Name" required="" />
+    <div class="error" id="nameError"></div>
+  </div> <!-- .contact_name ends -->
+ 
+  <div class="contact_email">
+    <span class="contact_label"></span>
+    <input type="text" id="email" placeholder="Email" required="" /><br />
+    <div class="error" id="emailError"></div>
+  </div> <!-- .contact_email ends -->
+ 
+  <div class="contact_comment">
+    <span class="contact_label"></span>
+    <textarea id="comment" rows="10" cols="35" placeholder="Write a Message" required=""></textarea>
+    <div class="error" id="commentError"></div>
+  </div> <!-- .contact_comment ends -->
+ 
+  <div class="contact_submit">
+    <input class="form_send" type='submit' value='Submit' />
+  </div> <!-- .contact_submit ends -->
+  <p><span class="contact_nb"></span></p>
+  </div>
+    <p class="textContact">Have you ever looked at a photograph and realized<br> that it was telling you a story about someone’s life?<br> Sometimes, pictures can ‘transmit’ very strong  feelings,<br>touching your soul and affecting your state of mind. <br>When you look at them you feel a quiver inside:<br> this one made you smile, the other makes you choke back <br> tears.We’reconvinced that the followingset of <br>photographs will make your heart beat faster and make <br>syou feel truly alive.All of them are simply beautiful. </p> 
+</form>
+</div>
+</div>
+</div>
+<!-- <form>
+    <div class="col-md-12">
+      <form id="contact-form">
+        <div class="contact_name">
+          <input type="text" class="form-control" id="name" placeholder="Full Name" required="Write your name">
+        </div>
+        <div class="contact_email">       
+          <input type= "Email" class="form-control" id="email" placeholder="Email" required="">
+        </div>
+        <div class="contact_comment">
+          <textarea class="form-control" cols="30" rows="10" placeholder="Message" id="msg" required=""></textarea> 
+        </div>  
+        <button type="" class="btn btn-outline-primary" id="form_send">Send</button>
+      </form>
+    </div>
+   
+    </div>
+    </div>
+</div>
+</form> -->
+
+
+</body>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="function.js"></script>
+</html>

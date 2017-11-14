@@ -1,0 +1,19 @@
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+
+// 	$('.hide-div').hide();
+// $(document).ready(function(){
+// 	$(window).scroll(function() {
+// 	    if($(window).scrollTop() < -10) {
+// 	    	 // > 100px from top - show div
+// 	    	 $('.hide-div').show();
+// 	    }
+// 	}
+// })
+	
